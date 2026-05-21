@@ -1,0 +1,448 @@
+{
+  "exercises": [
+    {
+      "id": "march",
+      "name": "Marching on the spot",
+      "cue": "Knees high, arms swinging. Just wake the system up.",
+      "tags": ["warm-up", "general", "low-intensity"],
+      "defaultType": "timed",
+      "defaultDuration": 30
+    },
+    {
+      "id": "leg-swings-fb",
+      "name": "Leg swings — forward/back",
+      "cue": "Hand on wall. Control the range, don't ballistic it. Hip should feel like it's loosening, not pulling.",
+      "tags": ["warm-up", "hip-mobility", "hamstring"],
+      "defaultType": "timed",
+      "defaultDuration": 30,
+      "perSide": true
+    },
+    {
+      "id": "leg-swings-lateral",
+      "name": "Leg swings — lateral",
+      "cue": "Face the wall, swing across body. Opens adductors and abductors dynamically.",
+      "tags": ["warm-up", "hip-mobility", "adductor"],
+      "defaultType": "timed",
+      "defaultDuration": 30,
+      "perSide": true
+    },
+    {
+      "id": "9090",
+      "name": "90/90 hip switches",
+      "cue": "Front leg 90° in front, back leg 90° to side. Rotate side to side. Slow. This unlocks internal and external rotation — what most rugby players are tight in.",
+      "tags": ["hip-mobility", "adductor", "rotation"],
+      "defaultType": "reps",
+      "defaultReps": "8 each side"
+    },
+    {
+      "id": "wgs",
+      "name": "World's greatest stretch",
+      "cue": "Lunge, hand inside front foot. Rotate up to ceiling. Hits hip flexor, T-spine, and hamstring in one.",
+      "tags": ["full-body", "warm-up", "thoracic", "hip-mobility"],
+      "defaultType": "reps",
+      "defaultReps": "4 each side"
+    },
+    {
+      "id": "cossack",
+      "name": "Cossack squat",
+      "cue": "Wide stance, shift side to side. Sit into one hip. Shallow first, deeper as warm. KEY for adductors — load through range, don't passively stretch.",
+      "tags": ["adductor", "hip-mobility", "loaded-stretch"],
+      "defaultType": "reps",
+      "defaultReps": "6 each side"
+    },
+    {
+      "id": "jefferson-curl",
+      "name": "Jefferson curl",
+      "cue": "Bodyweight only or very light. Roll down vertebra by vertebra, hang, roll up. Loads posterior chain gently through full range.",
+      "tags": ["posterior-chain", "hamstring", "spine"],
+      "defaultType": "reps",
+      "defaultReps": "5 slow"
+    },
+    {
+      "id": "aslr",
+      "name": "Active straight leg raise",
+      "cue": "On back, lift one leg straight up, control down. No yanking to end range. You're owning the range, not stretching into it.",
+      "tags": ["hamstring", "hip-mobility", "control"],
+      "defaultType": "reps",
+      "defaultReps": "8 each side"
+    },
+    {
+      "id": "glute-bridge",
+      "name": "Glute bridges",
+      "cue": "2 sec pause at top. Drive through heels. If you feel hamstrings cramping you're not using glutes — tuck pelvis first.",
+      "tags": ["glute", "activation", "posterior-chain"],
+      "defaultType": "reps",
+      "defaultReps": "10 reps"
+    },
+    {
+      "id": "single-leg-bridge",
+      "name": "Single-leg glute bridge",
+      "cue": "One foot down, other leg extended or knee to chest. Glute on standing leg does the work. Pause at top.",
+      "tags": ["glute", "activation", "single-leg"],
+      "defaultType": "reps",
+      "defaultReps": "8 each side"
+    },
+    {
+      "id": "long-lever-bridge-iso",
+      "name": "Long-lever bridge isometric",
+      "cue": "Heels far from body, legs nearly straight. Hold bridge at top. Loads hamstring without compressing the tendon — your safe entry for proximal hamstring work.",
+      "tags": ["hamstring", "isometric", "rehab", "proximal-hamstring"],
+      "defaultType": "timed",
+      "defaultDuration": 30
+    },
+    {
+      "id": "copenhagen-plank",
+      "name": "Copenhagen plank",
+      "cue": "Top leg on couch/bench, hold side plank. Knee on bench first, foot once easy. Best single exercise for adductor resilience.",
+      "tags": ["adductor", "activation", "isometric", "strength"],
+      "defaultType": "timed",
+      "defaultDuration": 15,
+      "perSide": true
+    },
+    {
+      "id": "single-leg-rdl",
+      "name": "Single-leg RDL",
+      "cue": "Slow, bodyweight or light DBs. Hinge from hip, back leg straight behind. Loads hamstring attachment eccentrically and trains balance.",
+      "tags": ["hamstring", "glute", "single-leg", "posterior-chain"],
+      "defaultType": "reps",
+      "defaultReps": "6 each side"
+    },
+    {
+      "id": "deep-squat-hold",
+      "name": "Deep squat hold",
+      "cue": "Elbows into knees, push knees out, open hips. Chest up.",
+      "tags": ["hip-mobility", "adductor", "ankle"],
+      "defaultType": "timed",
+      "defaultDuration": 30
+    },
+    {
+      "id": "forward-fold",
+      "name": "Standing forward fold",
+      "cue": "Soft knees, just hang. Don't reach for floor — let gravity do it.",
+      "tags": ["posterior-chain", "hamstring", "decompression"],
+      "defaultType": "timed",
+      "defaultDuration": 30
+    },
+    {
+      "id": "couch-stretch",
+      "name": "Couch stretch",
+      "cue": "Back foot up on couch/wall, front leg in lunge. Squeeze glute on back leg to open hip flexor properly.",
+      "tags": ["hip-flexor", "quad"],
+      "defaultType": "timed",
+      "defaultDuration": 45,
+      "perSide": true
+    },
+    {
+      "id": "pigeon",
+      "name": "Pigeon stretch",
+      "cue": "Front leg bent in front of body, back leg straight behind. Sink hips down. External rotation and glute med.",
+      "tags": ["glute", "hip-mobility", "external-rotation"],
+      "defaultType": "timed",
+      "defaultDuration": 45,
+      "perSide": true
+    },
+    {
+      "id": "thread-needle",
+      "name": "Thread the needle",
+      "cue": "On all fours, slide one arm under the other, rotate T-spine. Forehead to floor.",
+      "tags": ["thoracic", "rotation", "shoulder"],
+      "defaultType": "reps",
+      "defaultReps": "5 each side"
+    },
+    {
+      "id": "open-book",
+      "name": "Open book",
+      "cue": "Side lying, knees stacked, top arm rotates open to other side. Eyes follow hand. Pure T-spine rotation.",
+      "tags": ["thoracic", "rotation"],
+      "defaultType": "reps",
+      "defaultReps": "6 each side"
+    },
+    {
+      "id": "cat-cow",
+      "name": "Cat-cow",
+      "cue": "Slow. Articulate each segment. Spine warm-up, not a yoga performance.",
+      "tags": ["spine", "warm-up"],
+      "defaultType": "reps",
+      "defaultReps": "8 reps"
+    },
+    {
+      "id": "child-pose",
+      "name": "Child's pose",
+      "cue": "Knees wide, hips back to heels, arms long. Breathe into the back.",
+      "tags": ["decompression", "recovery"],
+      "defaultType": "timed",
+      "defaultDuration": 45
+    },
+    {
+      "id": "scap-pushup",
+      "name": "Scapular push-ups",
+      "cue": "Plank position, arms locked. Just protract and retract shoulder blades. Wakes up serratus.",
+      "tags": ["shoulder", "scapular", "activation"],
+      "defaultType": "reps",
+      "defaultReps": "10 reps"
+    },
+    {
+      "id": "band-pull-apart",
+      "name": "Band pull-aparts",
+      "cue": "Light band, arms straight, pull apart at chest height. Squeeze shoulder blades. Counters the hunched-forward training day.",
+      "tags": ["shoulder", "rear-delt", "posture"],
+      "defaultType": "reps",
+      "defaultReps": "15 reps"
+    },
+    {
+      "id": "wall-slides",
+      "name": "Wall slides",
+      "cue": "Back against wall, arms in goalpost. Slide up and down keeping contact. Hard if your T-spine is locked.",
+      "tags": ["shoulder", "thoracic", "posture"],
+      "defaultType": "reps",
+      "defaultReps": "8 reps"
+    },
+    {
+      "id": "ankle-rocks",
+      "name": "Ankle rocks",
+      "cue": "Half-kneeling, drive front knee forward over toes. Keep heel down. Dorsiflexion for squat and sprint depth.",
+      "tags": ["ankle", "mobility"],
+      "defaultType": "reps",
+      "defaultReps": "10 each side"
+    },
+    {
+      "id": "calf-raises",
+      "name": "Calf raises",
+      "cue": "Slow up, slow down, full range. Achilles and posterior chain prep.",
+      "tags": ["calf", "ankle", "activation"],
+      "defaultType": "reps",
+      "defaultReps": "15 reps"
+    },
+    {
+      "id": "a-skips",
+      "name": "A-skips",
+      "cue": "Drive knee up, opposite arm. Tall posture, foot strikes under hip. Sprint mechanics primer.",
+      "tags": ["sprint-mechanics", "warm-up", "neural"],
+      "defaultType": "timed",
+      "defaultDuration": 20,
+      "perSide": false
+    },
+    {
+      "id": "b-skips",
+      "name": "B-skips",
+      "cue": "A-skip but with a leg cycle out — paw the ground back. Hamstring activation, sprint-specific.",
+      "tags": ["sprint-mechanics", "hamstring", "neural"],
+      "defaultType": "timed",
+      "defaultDuration": 20,
+      "perSide": false
+    },
+    {
+      "id": "high-knees",
+      "name": "High knees",
+      "cue": "Quick feet, knees to hip height. Wakes CNS, raises HR.",
+      "tags": ["sprint-mechanics", "warm-up", "neural"],
+      "defaultType": "timed",
+      "defaultDuration": 20
+    },
+    {
+      "id": "pogo-jumps",
+      "name": "Pogo jumps",
+      "cue": "Stiff ankles, bounce on balls of feet. Minimal ground contact time. Reactive strength primer.",
+      "tags": ["plyometric", "calf", "neural", "pre-speed"],
+      "defaultType": "timed",
+      "defaultDuration": 20
+    },
+    {
+      "id": "broad-jump-sub",
+      "name": "Sub-max broad jumps",
+      "cue": "About 70%. Stick the landing. CNS prep, not a max effort.",
+      "tags": ["plyometric", "neural", "pre-speed"],
+      "defaultType": "reps",
+      "defaultReps": "3 reps"
+    },
+    {
+      "id": "lateral-bound",
+      "name": "Lateral bounds",
+      "cue": "Push off outside leg, land on opposite, stick it. Hip stability and change of direction primer.",
+      "tags": ["plyometric", "lateral", "hip-stability"],
+      "defaultType": "reps",
+      "defaultReps": "4 each side"
+    },
+    {
+      "id": "spiderman-lunge",
+      "name": "Spiderman lunge",
+      "cue": "Step into deep lunge, drop opposite hand inside front foot. Hip mobility, T-spine if you reach up.",
+      "tags": ["hip-mobility", "warm-up", "full-body"],
+      "defaultType": "reps",
+      "defaultReps": "5 each side"
+    },
+    {
+      "id": "inchworm",
+      "name": "Inchworm",
+      "cue": "Bend, walk hands out to plank, walk feet back to hands. Hamstring length plus core.",
+      "tags": ["hamstring", "warm-up", "full-body"],
+      "defaultType": "reps",
+      "defaultReps": "5 reps"
+    },
+    {
+      "id": "frog-stretch",
+      "name": "Frog stretch",
+      "cue": "On all fours, knees wide, rock back. Adductor and hip mobility. Don't force it.",
+      "tags": ["adductor", "hip-mobility"],
+      "defaultType": "timed",
+      "defaultDuration": 45
+    },
+    {
+      "id": "adductor-rockback",
+      "name": "Adductor rockback",
+      "cue": "Half-kneeling, one leg straight out to side, rock hips back over down knee. Loaded stretch for adductor.",
+      "tags": ["adductor", "loaded-stretch"],
+      "defaultType": "reps",
+      "defaultReps": "8 each side"
+    },
+    {
+      "id": "copenhagen-iso-knee",
+      "name": "Copenhagen isometric (knee)",
+      "cue": "Side plank with knee on bench, top leg. Hold. Easier version — start here if foot-on-bench is too much.",
+      "tags": ["adductor", "isometric", "rehab", "scaled"],
+      "defaultType": "timed",
+      "defaultDuration": 20,
+      "perSide": true
+    },
+    {
+      "id": "side-plank",
+      "name": "Side plank",
+      "cue": "Stack hips. Don't sag. Lateral chain.",
+      "tags": ["core", "isometric", "lateral"],
+      "defaultType": "timed",
+      "defaultDuration": 30,
+      "perSide": true
+    },
+    {
+      "id": "dead-bug",
+      "name": "Dead bug",
+      "cue": "Lower back pressed flat. Opposite arm and leg extend slow. Anti-extension core.",
+      "tags": ["core", "anti-extension", "activation"],
+      "defaultType": "reps",
+      "defaultReps": "6 each side"
+    },
+    {
+      "id": "bird-dog",
+      "name": "Bird dog",
+      "cue": "All fours, opposite arm and leg extend. Hold 2 sec. Don't rotate hips.",
+      "tags": ["core", "anti-rotation", "activation"],
+      "defaultType": "reps",
+      "defaultReps": "6 each side"
+    },
+    {
+      "id": "monster-walks",
+      "name": "Monster walks",
+      "cue": "Band around knees or ankles. Walk forward, sideways. Glute med activation.",
+      "tags": ["glute-med", "activation", "hip-stability"],
+      "defaultType": "timed",
+      "defaultDuration": 30
+    },
+    {
+      "id": "clamshells",
+      "name": "Clamshells",
+      "cue": "Side lying, band optional. Open knee, keep feet together, don't roll back. Glute med isolation.",
+      "tags": ["glute-med", "activation"],
+      "defaultType": "reps",
+      "defaultReps": "12 each side"
+    },
+    {
+      "id": "tib-raises",
+      "name": "Tib raises",
+      "cue": "Back against wall, lift toes up. Shin work — undertrained, helps sprint and change of direction.",
+      "tags": ["ankle", "shin", "activation"],
+      "defaultType": "reps",
+      "defaultReps": "15 reps"
+    },
+    {
+      "id": "ankle-circles",
+      "name": "Ankle circles",
+      "cue": "Both directions. Bored but useful.",
+      "tags": ["ankle", "warm-up"],
+      "defaultType": "reps",
+      "defaultReps": "10 each direction"
+    },
+    {
+      "id": "thoracic-extension",
+      "name": "Thoracic extension on roller",
+      "cue": "Foam roller under mid-back, hands behind head, extend back over it. Move roller up an inch, repeat. Counters scrum/seated posture.",
+      "tags": ["thoracic", "extension", "spine"],
+      "defaultType": "reps",
+      "defaultReps": "4 positions, 5 reps each"
+    },
+    {
+      "id": "shin-box-rotation",
+      "name": "Shin box getup",
+      "cue": "From 90/90 position, rotate up onto front knee, then back down to other side. Hip rotational strength.",
+      "tags": ["hip-mobility", "rotation", "strength"],
+      "defaultType": "reps",
+      "defaultReps": "5 each side"
+    },
+    {
+      "id": "box-breathing",
+      "name": "Box breathing",
+      "cue": "4 in, 4 hold, 4 out, 4 hold. Down-regulate. Evening or pre-sleep.",
+      "tags": ["parasympathetic", "recovery", "breathing"],
+      "defaultType": "timed",
+      "defaultDuration": 120
+    },
+    {
+      "id": "supine-twist",
+      "name": "Supine spinal twist",
+      "cue": "On back, one knee across body, opposite shoulder stays down. Just breathe.",
+      "tags": ["spine", "recovery", "rotation"],
+      "defaultType": "timed",
+      "defaultDuration": 45,
+      "perSide": true
+    },
+    {
+      "id": "legs-up-wall",
+      "name": "Legs up the wall",
+      "cue": "Lie on back, legs vertical up the wall. Down-regulate. Drains the legs.",
+      "tags": ["recovery", "parasympathetic", "decompression"],
+      "defaultType": "timed",
+      "defaultDuration": 120
+    },
+    {
+      "id": "hip-flexor-iso",
+      "name": "Hip flexor isometric hold",
+      "cue": "Half-kneeling, squeeze back glute, hold. Active hip flexor opener — beats passive lunging.",
+      "tags": ["hip-flexor", "isometric", "active-mobility"],
+      "defaultType": "timed",
+      "defaultDuration": 30,
+      "perSide": true
+    },
+    {
+      "id": "split-squat-iso",
+      "name": "Split squat isometric",
+      "cue": "Half-depth split squat, hold. Builds unilateral leg tolerance.",
+      "tags": ["leg", "isometric", "single-leg"],
+      "defaultType": "timed",
+      "defaultDuration": 30,
+      "perSide": true
+    },
+    {
+      "id": "nordic-curl",
+      "name": "Nordic curl (assisted)",
+      "cue": "Kneel, feet anchored, lower forward slow. Push back up with arms as needed. Eccentric hamstring strength — gold standard.",
+      "tags": ["hamstring", "eccentric", "strength"],
+      "defaultType": "reps",
+      "defaultReps": "5 slow"
+    },
+    {
+      "id": "neck-cars",
+      "name": "Neck circles",
+      "cue": "Slow, controlled, both directions. Rugby necks need it.",
+      "tags": ["neck", "warm-up"],
+      "defaultType": "reps",
+      "defaultReps": "5 each direction"
+    },
+    {
+      "id": "wrist-mobility",
+      "name": "Wrist rolls and stretches",
+      "cue": "Circles, then palms together prayer, then back of hands together. Passing and ball-handling need wrist health.",
+      "tags": ["wrist", "warm-up"],
+      "defaultType": "timed",
+      "defaultDuration": 45
+    }
+  ]
+}

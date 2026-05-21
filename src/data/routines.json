@@ -1,0 +1,438 @@
+{
+  "routines": [
+    {
+      "id": "morning-mobility",
+      "name": "Morning Mobility",
+      "category": "Daily",
+      "duration": 10,
+      "description": "Built around adductor and proximal hamstring resilience. Active mobility, not aggressive stretching. The non-negotiable daily floor.",
+      "tags": ["daily", "adductor", "hip-mobility", "low-intensity"],
+      "blocks": [
+        {
+          "name": "Warm-up",
+          "exercises": [
+            { "id": "march", "duration": 30 },
+            { "id": "leg-swings-fb", "duration": 30 },
+            { "id": "leg-swings-fb", "duration": 30, "note": "Other side" }
+          ]
+        },
+        {
+          "name": "Hip Openers",
+          "exercises": [
+            { "id": "9090", "reps": "8 each side" },
+            { "id": "wgs", "reps": "4 each side" },
+            { "id": "cossack", "reps": "6 each side" }
+          ]
+        },
+        {
+          "name": "Posterior Chain",
+          "exercises": [
+            { "id": "jefferson-curl", "reps": "5 slow" },
+            { "id": "aslr", "reps": "8 each side" },
+            { "id": "glute-bridge", "reps": "10 reps" }
+          ]
+        },
+        {
+          "name": "Activation",
+          "exercises": [
+            { "id": "copenhagen-plank", "duration": 15 },
+            { "id": "copenhagen-plank", "duration": 15, "note": "Other side" },
+            { "id": "single-leg-rdl", "reps": "6 each side" }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "exercises": [
+            { "id": "deep-squat-hold", "duration": 30 },
+            { "id": "forward-fold", "duration": 30 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "pre-rugby",
+      "name": "Pre-Rugby RAMP Warm-up",
+      "category": "Pre-Training",
+      "duration": 15,
+      "description": "Full pre-match or pre-training warm-up. Raise temp, Activate, Mobilise, Potentiate. Use before club rugby, Harlequins sessions, or any contact training.",
+      "tags": ["pre-training", "rugby", "warm-up", "neural"],
+      "blocks": [
+        {
+          "name": "Raise",
+          "exercises": [
+            { "id": "march", "duration": 45 },
+            { "id": "high-knees", "duration": 20 },
+            { "id": "inchworm", "reps": "5 reps" }
+          ]
+        },
+        {
+          "name": "Activate",
+          "exercises": [
+            { "id": "glute-bridge", "reps": "10 reps" },
+            { "id": "monster-walks", "duration": 30 },
+            { "id": "scap-pushup", "reps": "10 reps" },
+            { "id": "band-pull-apart", "reps": "15 reps" }
+          ]
+        },
+        {
+          "name": "Mobilise",
+          "exercises": [
+            { "id": "wgs", "reps": "4 each side" },
+            { "id": "spiderman-lunge", "reps": "5 each side" },
+            { "id": "9090", "reps": "6 each side" },
+            { "id": "ankle-rocks", "reps": "10 each side" }
+          ]
+        },
+        {
+          "name": "Potentiate",
+          "exercises": [
+            { "id": "a-skips", "duration": 20 },
+            { "id": "b-skips", "duration": 20 },
+            { "id": "pogo-jumps", "duration": 20 },
+            { "id": "broad-jump-sub", "reps": "3 reps" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "pre-speed",
+      "name": "Pre-Speed Session Prep",
+      "category": "Pre-Training",
+      "duration": 12,
+      "description": "Specific to Portland-style speed work. Wakes the CNS without burning it. Don't skip the potentiation block — max sprints off a cold system is how you get hamstring tears.",
+      "tags": ["pre-training", "speed", "neural", "sprint"],
+      "blocks": [
+        {
+          "name": "Raise",
+          "exercises": [
+            { "id": "march", "duration": 60 },
+            { "id": "high-knees", "duration": 20 }
+          ]
+        },
+        {
+          "name": "Mobilise — Sprint Specific",
+          "exercises": [
+            { "id": "leg-swings-fb", "duration": 30 },
+            { "id": "leg-swings-fb", "duration": 30, "note": "Other side" },
+            { "id": "wgs", "reps": "4 each side" },
+            { "id": "ankle-rocks", "reps": "10 each side" }
+          ]
+        },
+        {
+          "name": "Activate",
+          "exercises": [
+            { "id": "glute-bridge", "reps": "10 reps" },
+            { "id": "single-leg-bridge", "reps": "6 each side" },
+            { "id": "long-lever-bridge-iso", "duration": 20 }
+          ]
+        },
+        {
+          "name": "Potentiate — Neural Primer",
+          "exercises": [
+            { "id": "a-skips", "duration": 20 },
+            { "id": "b-skips", "duration": 20 },
+            { "id": "pogo-jumps", "duration": 20 },
+            { "id": "broad-jump-sub", "reps": "3 reps" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "pre-gym",
+      "name": "Pre-Gym (Harlequins TB)",
+      "category": "Pre-Training",
+      "duration": 10,
+      "description": "Specific to lifting days. Mobilises hips and T-spine, primes the system for heavy compounds without burning capacity.",
+      "tags": ["pre-training", "gym", "strength", "warm-up"],
+      "blocks": [
+        {
+          "name": "Raise",
+          "exercises": [
+            { "id": "march", "duration": 45 },
+            { "id": "cat-cow", "reps": "8 reps" }
+          ]
+        },
+        {
+          "name": "Mobilise",
+          "exercises": [
+            { "id": "wgs", "reps": "4 each side" },
+            { "id": "thoracic-extension", "reps": "4 positions, 5 reps each" },
+            { "id": "ankle-rocks", "reps": "10 each side" },
+            { "id": "cossack", "reps": "5 each side" }
+          ]
+        },
+        {
+          "name": "Activate",
+          "exercises": [
+            { "id": "glute-bridge", "reps": "10 reps" },
+            { "id": "monster-walks", "duration": 30 },
+            { "id": "scap-pushup", "reps": "10 reps" },
+            { "id": "band-pull-apart", "reps": "15 reps" },
+            { "id": "dead-bug", "reps": "6 each side" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "post-training",
+      "name": "Post-Training Recovery Flow",
+      "category": "Recovery",
+      "duration": 12,
+      "description": "After rugby, gym, or speed work. Drops the system into parasympathetic, decompresses the spine, restores length without forcing it. Don't do this hard — it's the opposite of training.",
+      "tags": ["recovery", "parasympathetic", "post-training"],
+      "blocks": [
+        {
+          "name": "Down-regulate",
+          "exercises": [
+            { "id": "child-pose", "duration": 60 },
+            { "id": "cat-cow", "reps": "8 reps slow" }
+          ]
+        },
+        {
+          "name": "Restore Length",
+          "exercises": [
+            { "id": "couch-stretch", "duration": 45 },
+            { "id": "couch-stretch", "duration": 45, "note": "Other side" },
+            { "id": "pigeon", "duration": 45 },
+            { "id": "pigeon", "duration": 45, "note": "Other side" },
+            { "id": "supine-twist", "duration": 45 },
+            { "id": "supine-twist", "duration": 45, "note": "Other side" }
+          ]
+        },
+        {
+          "name": "Decompress",
+          "exercises": [
+            { "id": "legs-up-wall", "duration": 120 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "adductor-protocol",
+      "name": "Adductor Protocol",
+      "category": "Injury-Specific",
+      "duration": 15,
+      "description": "Targeted at adductor irritation from your old avulsion site. The adductors don't need stretching — they need loading through range. This builds tolerance gradually. Use 2-3x per week, not daily.",
+      "tags": ["injury-specific", "adductor", "rehab", "proximal-hamstring"],
+      "blocks": [
+        {
+          "name": "Prepare",
+          "exercises": [
+            { "id": "march", "duration": 60 },
+            { "id": "leg-swings-lateral", "duration": 30 },
+            { "id": "leg-swings-lateral", "duration": 30, "note": "Other side" }
+          ]
+        },
+        {
+          "name": "Load Through Range",
+          "exercises": [
+            { "id": "cossack", "reps": "8 each side, slow" },
+            { "id": "adductor-rockback", "reps": "8 each side" },
+            { "id": "9090", "reps": "8 each side" }
+          ]
+        },
+        {
+          "name": "Isometric Strength",
+          "exercises": [
+            { "id": "copenhagen-iso-knee", "duration": 20 },
+            { "id": "copenhagen-iso-knee", "duration": 20, "note": "Other side" },
+            { "id": "long-lever-bridge-iso", "duration": 30 }
+          ]
+        },
+        {
+          "name": "Progress to Strength",
+          "exercises": [
+            { "id": "copenhagen-plank", "duration": 20 },
+            { "id": "copenhagen-plank", "duration": 20, "note": "Other side" },
+            { "id": "single-leg-rdl", "reps": "8 each side" }
+          ]
+        },
+        {
+          "name": "Glute Med Support",
+          "exercises": [
+            { "id": "clamshells", "reps": "12 each side" },
+            { "id": "single-leg-bridge", "reps": "8 each side" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "proximal-hamstring",
+      "name": "Proximal Hamstring Loading",
+      "category": "Injury-Specific",
+      "duration": 12,
+      "description": "Based on the standard tendinopathy progression: isometric → isotonic without hip flexion → isotonic with hip flexion. Use this if the old avulsion site is grumbling. Stop at any stage that flares it. Tendon work is patient work.",
+      "tags": ["injury-specific", "hamstring", "rehab", "proximal-hamstring", "isometric"],
+      "blocks": [
+        {
+          "name": "Stage 1 — Isometric (start here when irritated)",
+          "exercises": [
+            { "id": "long-lever-bridge-iso", "duration": 45 },
+            { "id": "long-lever-bridge-iso", "duration": 45 },
+            { "id": "long-lever-bridge-iso", "duration": 45 }
+          ]
+        },
+        {
+          "name": "Stage 2 — Isotonic, Minimal Hip Flexion",
+          "exercises": [
+            { "id": "glute-bridge", "reps": "10 reps slow" },
+            { "id": "single-leg-bridge", "reps": "8 each side, slow" },
+            { "id": "single-leg-rdl", "reps": "8 each side" }
+          ]
+        },
+        {
+          "name": "Stage 3 — Isotonic, Increased Hip Flexion (only when pain-free)",
+          "exercises": [
+            { "id": "jefferson-curl", "reps": "5 slow" },
+            { "id": "nordic-curl", "reps": "5 slow" }
+          ]
+        },
+        {
+          "name": "Support",
+          "exercises": [
+            { "id": "clamshells", "reps": "12 each side" },
+            { "id": "copenhagen-iso-knee", "duration": 20 },
+            { "id": "copenhagen-iso-knee", "duration": 20, "note": "Other side" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "hip-deep-dive",
+      "name": "Hip Mobility Deep Dive",
+      "category": "Mobility",
+      "duration": 20,
+      "description": "Longer hip-focused session. Use on lighter training days or off days. Builds rotational range, opens hip flexors, hits all three planes.",
+      "tags": ["hip-mobility", "rotation", "longer"],
+      "blocks": [
+        {
+          "name": "Prepare",
+          "exercises": [
+            { "id": "cat-cow", "reps": "8 reps" },
+            { "id": "march", "duration": 45 }
+          ]
+        },
+        {
+          "name": "Frontal Plane",
+          "exercises": [
+            { "id": "leg-swings-lateral", "duration": 30 },
+            { "id": "leg-swings-lateral", "duration": 30, "note": "Other side" },
+            { "id": "cossack", "reps": "8 each side" },
+            { "id": "frog-stretch", "duration": 60 }
+          ]
+        },
+        {
+          "name": "Transverse Plane",
+          "exercises": [
+            { "id": "9090", "reps": "10 each side" },
+            { "id": "shin-box-rotation", "reps": "5 each side" },
+            { "id": "pigeon", "duration": 60 },
+            { "id": "pigeon", "duration": 60, "note": "Other side" }
+          ]
+        },
+        {
+          "name": "Sagittal Plane",
+          "exercises": [
+            { "id": "hip-flexor-iso", "duration": 30 },
+            { "id": "hip-flexor-iso", "duration": 30, "note": "Other side" },
+            { "id": "couch-stretch", "duration": 45 },
+            { "id": "couch-stretch", "duration": 45, "note": "Other side" },
+            { "id": "wgs", "reps": "4 each side" }
+          ]
+        },
+        {
+          "name": "Integrate",
+          "exercises": [
+            { "id": "deep-squat-hold", "duration": 60 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "thoracic-upper",
+      "name": "T-Spine & Upper Body",
+      "category": "Mobility",
+      "duration": 12,
+      "description": "Often neglected by rugby players. Better T-spine rotation means longer passes, better scrum position, less neck issues. Use 2-3x per week.",
+      "tags": ["thoracic", "shoulder", "rotation", "posture"],
+      "blocks": [
+        {
+          "name": "Prepare",
+          "exercises": [
+            { "id": "cat-cow", "reps": "8 reps" },
+            { "id": "neck-cars", "reps": "5 each direction" }
+          ]
+        },
+        {
+          "name": "T-Spine Mobility",
+          "exercises": [
+            { "id": "thoracic-extension", "reps": "4 positions, 5 reps each" },
+            { "id": "open-book", "reps": "6 each side" },
+            { "id": "thread-needle", "reps": "5 each side" }
+          ]
+        },
+        {
+          "name": "Shoulder & Scapular",
+          "exercises": [
+            { "id": "scap-pushup", "reps": "10 reps" },
+            { "id": "wall-slides", "reps": "8 reps" },
+            { "id": "band-pull-apart", "reps": "15 reps" }
+          ]
+        },
+        {
+          "name": "Wrist & Forearm",
+          "exercises": [
+            { "id": "wrist-mobility", "duration": 60 }
+          ]
+        },
+        {
+          "name": "Integrate",
+          "exercises": [
+            { "id": "wgs", "reps": "4 each side" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "evening-wind-down",
+      "name": "Evening Wind-Down",
+      "category": "Recovery",
+      "duration": 10,
+      "description": "Pre-sleep parasympathetic shift. Helps sleep quality, drops HR, drains tired legs. Lights low. No music or low BPM only.",
+      "tags": ["recovery", "parasympathetic", "evening", "sleep"],
+      "blocks": [
+        {
+          "name": "Down-regulate",
+          "exercises": [
+            { "id": "box-breathing", "duration": 120 }
+          ]
+        },
+        {
+          "name": "Restore",
+          "exercises": [
+            { "id": "child-pose", "duration": 60 },
+            { "id": "supine-twist", "duration": 45 },
+            { "id": "supine-twist", "duration": 45, "note": "Other side" },
+            { "id": "pigeon", "duration": 60 },
+            { "id": "pigeon", "duration": 60, "note": "Other side" }
+          ]
+        },
+        {
+          "name": "Drain",
+          "exercises": [
+            { "id": "legs-up-wall", "duration": 180 }
+          ]
+        }
+      ]
+    }
+  ]
+}
