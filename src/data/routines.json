@@ -4,47 +4,47 @@
       "id": "morning-mobility",
       "name": "Morning Mobility",
       "category": "Daily",
-      "duration": 10,
-      "description": "Built around adductor and proximal hamstring resilience. Active mobility, not aggressive stretching. The non-negotiable daily floor.",
+      "duration": 15,
+      "description": "Built around adductor and proximal hamstring resilience. Every rep with intent — pause at end range, control the eccentric. Active mobility done properly, not gone through the motions. The non-negotiable daily floor.",
       "tags": ["daily", "adductor", "hip-mobility", "low-intensity"],
       "blocks": [
         {
           "name": "Warm-up",
           "exercises": [
-            { "id": "march", "duration": 30 },
-            { "id": "leg-swings-fb", "duration": 30 },
-            { "id": "leg-swings-fb", "duration": 30, "note": "Other side" }
+            { "id": "march", "duration": 45 },
+            { "id": "leg-swings-fb", "duration": 40, "note": "10 swings each direction, controlled" },
+            { "id": "leg-swings-fb", "duration": 40, "note": "Other side" }
           ]
         },
         {
           "name": "Hip Openers",
           "exercises": [
-            { "id": "9090", "reps": "8 each side" },
-            { "id": "wgs", "reps": "4 each side" },
-            { "id": "cossack", "reps": "6 each side" }
+            { "id": "9090", "reps": "10 each side — 5 sec pause at end range each rep" },
+            { "id": "wgs", "reps": "5 each side — pause 3 sec at top of rotation" },
+            { "id": "cossack", "reps": "8 each side — 3 sec hold at the bottom of each side" }
           ]
         },
         {
           "name": "Posterior Chain",
           "exercises": [
-            { "id": "jefferson-curl", "reps": "5 slow" },
-            { "id": "aslr", "reps": "8 each side" },
-            { "id": "glute-bridge", "reps": "10 reps" }
+            { "id": "jefferson-curl", "reps": "6 reps — 3 sec to roll down, 3 sec hang at bottom" },
+            { "id": "aslr", "reps": "10 each side — 2 sec hold at top, slow eccentric" },
+            { "id": "glute-bridge", "reps": "12 reps — 3 sec pause at the top of each rep" }
           ]
         },
         {
           "name": "Activation",
           "exercises": [
-            { "id": "copenhagen-plank", "duration": 15 },
-            { "id": "copenhagen-plank", "duration": 15, "note": "Other side" },
-            { "id": "single-leg-rdl", "reps": "6 each side" }
+            { "id": "copenhagen-plank", "duration": 25 },
+            { "id": "copenhagen-plank", "duration": 25, "note": "Other side" },
+            { "id": "single-leg-rdl", "reps": "8 each side — slow 3 sec descent, 1 sec at bottom" }
           ]
         },
         {
           "name": "Finisher",
           "exercises": [
-            { "id": "deep-squat-hold", "duration": 30 },
-            { "id": "forward-fold", "duration": 30 }
+            { "id": "deep-squat-hold", "duration": 45 },
+            { "id": "forward-fold", "duration": 45 }
           ]
         }
       ]
