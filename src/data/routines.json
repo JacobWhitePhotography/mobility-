@@ -181,7 +181,7 @@
       "id": "post-training",
       "name": "Post-Training Recovery Flow",
       "category": "Recovery",
-      "duration": 12,
+      "duration": 15,
       "description": "After rugby, gym, or speed work. Drops the system into parasympathetic, decompresses the spine, restores length without forcing it. Don't do this hard — it's the opposite of training.",
       "tags": ["recovery", "parasympathetic", "post-training"],
       "blocks": [
@@ -189,24 +189,24 @@
           "name": "Down-regulate",
           "exercises": [
             { "id": "child-pose", "duration": 60 },
-            { "id": "cat-cow", "reps": "8 reps slow" }
+            { "id": "cat-cow", "reps": "10 reps — full breath at each end, 2 sec pause" }
           ]
         },
         {
           "name": "Restore Length",
           "exercises": [
-            { "id": "couch-stretch", "duration": 45 },
-            { "id": "couch-stretch", "duration": 45, "note": "Other side" },
-            { "id": "pigeon", "duration": 45 },
-            { "id": "pigeon", "duration": 45, "note": "Other side" },
-            { "id": "supine-twist", "duration": 45 },
-            { "id": "supine-twist", "duration": 45, "note": "Other side" }
+            { "id": "couch-stretch", "duration": 60 },
+            { "id": "couch-stretch", "duration": 60, "note": "Other side" },
+            { "id": "pigeon", "duration": 60 },
+            { "id": "pigeon", "duration": 60, "note": "Other side" },
+            { "id": "supine-twist", "duration": 60 },
+            { "id": "supine-twist", "duration": 60, "note": "Other side" }
           ]
         },
         {
           "name": "Decompress",
           "exercises": [
-            { "id": "legs-up-wall", "duration": 120 }
+            { "id": "legs-up-wall", "duration": 180 }
           ]
         }
       ]
@@ -216,7 +216,7 @@
       "id": "adductor-protocol",
       "name": "Adductor Protocol",
       "category": "Injury-Specific",
-      "duration": 15,
+      "duration": 20,
       "description": "Targeted at adductor irritation from your old avulsion site. The adductors don't need stretching — they need loading through range. This builds tolerance gradually. Use 2-3x per week, not daily.",
       "tags": ["injury-specific", "adductor", "rehab", "proximal-hamstring"],
       "blocks": [
@@ -231,32 +231,32 @@
         {
           "name": "Load Through Range",
           "exercises": [
-            { "id": "cossack", "reps": "8 each side, slow" },
-            { "id": "adductor-rockback", "reps": "8 each side" },
-            { "id": "9090", "reps": "8 each side" }
+            { "id": "cossack", "reps": "10 each side — 3 sec hold at the bottom of each rep" },
+            { "id": "adductor-rockback", "reps": "10 each side — 3 sec load at end range, control back" },
+            { "id": "9090", "reps": "10 each side — 5 sec pause at end range each rep" }
           ]
         },
         {
           "name": "Isometric Strength",
           "exercises": [
-            { "id": "copenhagen-iso-knee", "duration": 20 },
-            { "id": "copenhagen-iso-knee", "duration": 20, "note": "Other side" },
-            { "id": "long-lever-bridge-iso", "duration": 30 }
+            { "id": "copenhagen-iso-knee", "duration": 30 },
+            { "id": "copenhagen-iso-knee", "duration": 30, "note": "Other side" },
+            { "id": "long-lever-bridge-iso", "duration": 45 }
           ]
         },
         {
           "name": "Progress to Strength",
           "exercises": [
-            { "id": "copenhagen-plank", "duration": 20 },
-            { "id": "copenhagen-plank", "duration": 20, "note": "Other side" },
-            { "id": "single-leg-rdl", "reps": "8 each side" }
+            { "id": "copenhagen-plank", "duration": 30 },
+            { "id": "copenhagen-plank", "duration": 30, "note": "Other side" },
+            { "id": "single-leg-rdl", "reps": "10 each side — 3 sec descent, 1 sec pause at bottom" }
           ]
         },
         {
           "name": "Glute Med Support",
           "exercises": [
-            { "id": "clamshells", "reps": "12 each side" },
-            { "id": "single-leg-bridge", "reps": "8 each side" }
+            { "id": "clamshells", "reps": "15 each side — 2 sec hold at top" },
+            { "id": "single-leg-bridge", "reps": "10 each side — 3 sec pause at top" }
           ]
         }
       ]
@@ -308,14 +308,14 @@
       "id": "hip-deep-dive",
       "name": "Hip Mobility Deep Dive",
       "category": "Mobility",
-      "duration": 20,
+      "duration": 25,
       "description": "Longer hip-focused session. Use on lighter training days or off days. Builds rotational range, opens hip flexors, hits all three planes.",
       "tags": ["hip-mobility", "rotation", "longer"],
       "blocks": [
         {
           "name": "Prepare",
           "exercises": [
-            { "id": "cat-cow", "reps": "8 reps" },
+            { "id": "cat-cow", "reps": "10 reps — 2 sec at each end, no rushing" },
             { "id": "march", "duration": 45 }
           ]
         },
@@ -324,15 +324,15 @@
           "exercises": [
             { "id": "leg-swings-lateral", "duration": 30 },
             { "id": "leg-swings-lateral", "duration": 30, "note": "Other side" },
-            { "id": "cossack", "reps": "8 each side" },
+            { "id": "cossack", "reps": "10 each side — 3 sec hold at the bottom" },
             { "id": "frog-stretch", "duration": 60 }
           ]
         },
         {
           "name": "Transverse Plane",
           "exercises": [
-            { "id": "9090", "reps": "10 each side" },
-            { "id": "shin-box-rotation", "reps": "5 each side" },
+            { "id": "9090", "reps": "10 each side — 5 sec pause at end range each rep" },
+            { "id": "shin-box-rotation", "reps": "6 each side — 2 sec pause before rotating back" },
             { "id": "pigeon", "duration": 60 },
             { "id": "pigeon", "duration": 60, "note": "Other side" }
           ]
@@ -340,11 +340,11 @@
         {
           "name": "Sagittal Plane",
           "exercises": [
-            { "id": "hip-flexor-iso", "duration": 30 },
-            { "id": "hip-flexor-iso", "duration": 30, "note": "Other side" },
+            { "id": "hip-flexor-iso", "duration": 45 },
+            { "id": "hip-flexor-iso", "duration": 45, "note": "Other side" },
             { "id": "couch-stretch", "duration": 45 },
             { "id": "couch-stretch", "duration": 45, "note": "Other side" },
-            { "id": "wgs", "reps": "4 each side" }
+            { "id": "wgs", "reps": "5 each side — pause 3 sec at top of rotation" }
           ]
         },
         {
@@ -360,31 +360,31 @@
       "id": "thoracic-upper",
       "name": "T-Spine & Upper Body",
       "category": "Mobility",
-      "duration": 12,
+      "duration": 16,
       "description": "Often neglected by rugby players. Better T-spine rotation means longer passes, better scrum position, less neck issues. Use 2-3x per week.",
       "tags": ["thoracic", "shoulder", "rotation", "posture"],
       "blocks": [
         {
           "name": "Prepare",
           "exercises": [
-            { "id": "cat-cow", "reps": "8 reps" },
-            { "id": "neck-cars", "reps": "5 each direction" }
+            { "id": "cat-cow", "reps": "10 reps — 2 sec at each end, no rushing" },
+            { "id": "neck-cars", "reps": "6 each direction — 2 sec pause at end range" }
           ]
         },
         {
           "name": "T-Spine Mobility",
           "exercises": [
-            { "id": "thoracic-extension", "reps": "4 positions, 5 reps each" },
-            { "id": "open-book", "reps": "6 each side" },
-            { "id": "thread-needle", "reps": "5 each side" }
+            { "id": "thoracic-extension", "reps": "4 positions, 6 reps each — 2 sec hold at extension" },
+            { "id": "open-book", "reps": "8 each side — 3 sec hold at full rotation" },
+            { "id": "thread-needle", "reps": "6 each side — 3 sec pause at maximum rotation" }
           ]
         },
         {
           "name": "Shoulder & Scapular",
           "exercises": [
-            { "id": "scap-pushup", "reps": "10 reps" },
-            { "id": "wall-slides", "reps": "8 reps" },
-            { "id": "band-pull-apart", "reps": "15 reps" }
+            { "id": "scap-pushup", "reps": "12 reps — 1 sec hold at full protraction and retraction" },
+            { "id": "wall-slides", "reps": "10 reps — 2 sec pause at the top" },
+            { "id": "band-pull-apart", "reps": "15 reps — 1 sec squeeze at full pull" }
           ]
         },
         {
@@ -396,7 +396,7 @@
         {
           "name": "Integrate",
           "exercises": [
-            { "id": "wgs", "reps": "4 each side" }
+            { "id": "wgs", "reps": "5 each side — pause 3 sec at top of rotation" }
           ]
         }
       ]
@@ -406,7 +406,7 @@
       "id": "evening-wind-down",
       "name": "Evening Wind-Down",
       "category": "Recovery",
-      "duration": 10,
+      "duration": 13,
       "description": "Pre-sleep parasympathetic shift. Helps sleep quality, drops HR, drains tired legs. Lights low. No music or low BPM only.",
       "tags": ["recovery", "parasympathetic", "evening", "sleep"],
       "blocks": [
@@ -420,8 +420,8 @@
           "name": "Restore",
           "exercises": [
             { "id": "child-pose", "duration": 60 },
-            { "id": "supine-twist", "duration": 45 },
-            { "id": "supine-twist", "duration": 45, "note": "Other side" },
+            { "id": "supine-twist", "duration": 60 },
+            { "id": "supine-twist", "duration": 60, "note": "Other side" },
             { "id": "pigeon", "duration": 60 },
             { "id": "pigeon", "duration": 60, "note": "Other side" }
           ]
